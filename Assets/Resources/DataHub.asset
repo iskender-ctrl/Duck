@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6baffe7ed6dc48618b6743fe953ff94d, type: 3}
+  m_Name: DataHub
+  m_EditorClassIdentifier: 
+  allDucks:
+  - id: 1
+    type: 1
+    rarity: 0
+    prefab: {fileID: 6707674231896935747, guid: 9a6704486ae30144d848ecd871da7107, type: 3}
+  - id: 2
+    type: 2
+    rarity: 0
+    prefab: {fileID: 5698346597741394401, guid: fb056283c1d427045a728de30a1d0fdc, type: 3}
+  - id: 3
+    type: 3
+    rarity: 0
+    prefab: {fileID: 8377324969294053892, guid: 5eb8611e6d0b7f542a475738c8f8bcc6, type: 3}
+  - id: 4
+    type: 4
+    rarity: 0
+    prefab: {fileID: 4849092561166247042, guid: 0f5f8057f4f373140b93c53c9664af84, type: 3}
+  - id: 5
+    type: 5
+    rarity: 0
+    prefab: {fileID: 7099402854763980699, guid: 0f07bc083f3bf7047a455533436baafa, type: 3}
+  canonPositionsData:
+  - type: 2
+    spawnStartPos: {x: 45, y: -13.77}
+    spawnIncreaseRate: {x: 0.1, y: 0.8}
+    smokeStartPos: {x: -23, y: -1.5}
+    smokeSpawnIncreaseRate: {x: -0.5, y: 0.3}
+  - type: 1
+    spawnStartPos: {x: 45, y: 0}
+    spawnIncreaseRate: {x: 0.1, y: 0.8}
+    smokeStartPos: {x: -13.1, y: 10.01}
+    smokeSpawnIncreaseRate: {x: -0.9, y: 0.32}
